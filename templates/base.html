@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style/base.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container" class="w-full h-screen">
+        <div>
+            <!-- header -->
+             <div class="flex justify-center items-center">
+                <div id="nav_bar" class="gray_color flex justify-between items-center py-3 px-20 rounded-b-lg font-mono " style="width: 80%">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Project</a>
+                    <a href="">Resume</a>
+                    <a href="">Certificates</a>
+                    <a href="">Contact</a>
+
+                    <!-- Light and Dark Mode -->
+                    <div class="flex">
+                        <img id="dark_toggle" src="../static/images/dark_toggle.png" alt="" class="h-10">
+                        <img id="light_toggle" src="../static/images/light_toggle.png" alt="" class="h-10">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content -->
+            {% block content %}
+                
+            {% endblock %}
+        </div>
+    </div>
+
+    <script src="../static/js/base.js"></script>
+</body>
+</html>
