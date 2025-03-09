@@ -1,7 +1,7 @@
 [
     {
         "certificates_container": "alx_certificate_div",
-        "certificate_height": "12rem",
+        "certificate_height": "50%",
         "certificate_img": "../static/images/certificates/alx/Adesina_Frontend_Specializations.png", 
         "certificate_name": "Frontend Development", 
         "issuing_institution": "ALX SE", 
@@ -10,7 +10,7 @@
     },
     {
         "certificates_container": "alx_certificate_div",
-        "certificate_height": "12rem",
+        "certificate_height": "50%",
         "certificate_img": "../static/images/certificates/alx/Adesina_Backend_Specializations.png",
         "certificate_name": "Backend Development", 
         "issuing_institution": "ALX SE", 
