@@ -3,30 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/style/base.css">
+    <link rel="stylesheet" href="../static/css/output.css">
+    <link rel="stylesheet" href="../static/css/base.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c5e4d5e6fa.js" crossorigin="anonymous"></script>
+    <title>Adesina</title>
 </head>
-<body>
-    <div id="container" class="w-full h-screen">
+<body class="transition-all duration-700">
+    <div id="container" class="w-full h-screen px-24">
         <div>
-            <!-- header -->
-             <div class="flex justify-center items-center">
-                <div id="nav_bar" class="gray_color flex justify-between items-center py-3 px-20 rounded-b-lg font-mono " style="width: 80%">
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">Project</a>
-                    <a href="">Resume</a>
-                    <a href="">Certificates</a>
-                    <a href="">Contact</a>
+            <!-- nav bar -->
+             <div class="flex justify-center items-center text-sm">
+                <div class="mb-7 nav_bar_bg gray_color rounded-b-lg transition-all duration-700" style="width: 100%">
+                    <div id="nav_bar" class="flex justify-around items-center py-3  font-mono flex-wrap">
+                        <!-- logo -->
+                        <div class="block md:hidden text-xl font-bold" style='font-family: "Playfair Display SC", serif;'><a href="/">Home</a></div>
 
-                    <!-- Light and Dark Mode -->
-                    <div class="flex">
-                        <img id="dark_toggle" src="../static/images/dark_toggle.png" alt="" class="h-10">
-                        <img id="light_toggle" src="../static/images/light_toggle.png" alt="" class="h-10">
+                        <div id="nav_content" class="hidden md:flex justify-between w-[80%]">
+                            <a href="/">Home</a>
+                            <a href="/about">About</a>
+                            <!-- <a href="">Project</a> -->
+                            <a href="/resume">Resume</a>
+                            <a href="/certificates">Certificates</a>
+                            <a href="/contact">Contact</a>
+                        </div>
+
+                        <!-- Light and Dark Mode -->
+                        <div class="flex">
+                            <img id="dark_toggle" src="../static/images/dark_toggle.png" alt="" class=" h-9">
+                            <img id="light_toggle" src="../static/images/light_toggle.png" alt="" class=" h-[2.2rem]">
+                        </div>
+
+                        <!-- Mobile Menu Button -->
+                        <button id="menu_toggle" class="md:hidden focus:outline-none">
+                            <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Mobile Menu -->
+                    <div id="nav_content_mobile" class="flex-col gap-2 justify-center w-full">
+                        <a href="/" class="w-full text-center hover:nav_content_hover rounded-md p-2">Home</a>
+                        <a href="" class="w-full text-center">About</a>
+                        <a href="" class="w-full text-center">Project</a>
+                        <a href="" class="w-full text-center">Resume</a>
+                        <a href="" class="w-full text-center">Certificates</a>
+                        <a href="" class="w-full text-center">Contact</a>
                     </div>
                 </div>
             </div>
+
+            
 
             <!-- Content -->
             {% block content %}

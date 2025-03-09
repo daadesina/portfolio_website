@@ -1,0 +1,131 @@
+[
+    {
+        "certificates_container": "alx_certificate_div",
+        "certificate_height": "12rem",
+        "certificate_img": "../static/images/certificates/alx/Adesina_Frontend_Specializations.png", 
+        "certificate_name": "Frontend Development", 
+        "issuing_institution": "ALX SE", 
+        "date_of_issue": "December, 2024", 
+        "skills_acquired": "Jinja, JavaScript, HTML, CSS"
+    },
+    {
+        "certificates_container": "alx_certificate_div",
+        "certificate_height": "12rem",
+        "certificate_img": "../static/images/certificates/alx/Adesina_Backend_Specializations.png",
+        "certificate_name": "Backend Development", 
+        "issuing_institution": "ALX SE", 
+        "date_of_issue": "November, 2024", 
+        "skills_acquired": "Python Flask, SQLAlchemy, SQLite, MySQL"
+    },
+    {
+        "certificates_container": "alx_certificate_div",
+        "certificate_height": "50%",
+        "certificate_img": "../static/images/certificates/alx/Adesina_Gig_at_a_Startup.png",
+        "certificate_name": "Gig at a Startup", 
+        "issuing_institution": "ALX Ventures", 
+        "date_of_issue": "November, 2024", 
+        "skills_acquired": "Next JS, Tailwind CSS"
+    },
+    {
+        "certificates_container": "alx_certificate_div",
+        "certificate_height": "12rem",
+        "certificate_img": "../static/images/certificates/alx/Adesina_AI_Career_Essentials_Certificate.png",
+        "certificate_name": "AI Career Essentials", 
+        "issuing_institution": "ALX Africa", 
+        "date_of_issue": "August, 2024", 
+        "skills_acquired": "ChatGPT, Canva, Infogram"
+    },
+    {
+        "certificates_container": "alx_certificate_div",
+        "certificate_height": "50%",
+        "certificate_img": "../static/images/certificates/alx/Adesina_Professional_Foundations.png",
+        "certificate_name": "Professional Foundation", 
+        "issuing_institution": "ALX Africa", 
+        "date_of_issue": "October, 2024", 
+        "skills_acquired": "Teamwork, Problem Solving"
+    },
+    {
+        "certificates_container": "alx_certificate_div",
+        "certificate_height": "50%",
+        "certificate_img": "../static/images/certificates/alx/Adesina_Virtual_Assistant.png",
+        "certificate_name": "Virtual Assistant", 
+        "issuing_institution": "ALX Africa", 
+        "date_of_issue": "September, 2024", 
+        "skills_acquired": "Google Workspace"
+    },
+    {
+        "certificates_container": "alx_certificate_div",
+        "certificate_height": "50%",
+        "certificate_img": "../static/images/certificates/alx/Adesina_Founder_Academy.png",
+        "certificate_name": "Founder Academy", 
+        "issuing_institution": "ALX Ventures", 
+        "date_of_issue": "November, 2024", 
+        "skills_acquired": "Leadership Skills, Time Management"
+    },
+    {
+        "certificates_container": "coursera_certificate_div",
+        "certificate_height": "50%",
+        "certificate_img": "../static/images/certificates/coursera/Adesina_C_programming.png",
+        "certificate_name": "Programming in C", 
+        "issuing_institution": "University of Michigan", 
+        "date_of_issue": "February, 2025", 
+        "skills_acquired": "C Programming"
+    },
+    {
+        "certificates_container": "coursera_certificate_div",
+        "certificate_height": "50%",
+        "certificate_img": "../static/images/certificates/coursera/Adesina_IBM_Cloud.png",
+        "certificate_name": "Cloud Computing", 
+        "issuing_institution": "IBM", 
+        "date_of_issue": "September, 2024", 
+        "skills_acquired": "Introduction to Cloud Computing"
+    },
+    {
+        "certificates_container": "linkedin_certificate_div",
+        "certificate_height": "50%",
+        "certificate_img": "../static/images/certificates/linkedin_learning/Adesina_Microsoft_Software_Development.png",
+        "certificate_name": "Software Development", 
+        "issuing_institution": "Microsoft", 
+        "date_of_issue": "June, 2024", 
+        "skills_acquired": "Career Essentials in Software Development"
+    },
+    {
+        "certificates_container": "linkedin_certificate_div",
+        "certificate_height": "50%",
+        "certificate_img": "../static/images/certificates/linkedin_learning/Adesina_GitHub.png",
+        "certificate_name": "Career Essentials in GitHub", 
+        "issuing_institution": "GitHub", 
+        "date_of_issue": "September, 2024", 
+        "skills_acquired": "GitHub, Copilot"
+    },
+    
+    {
+        "certificates_container": "threeMTT_certificate_div",
+        "certificate_height": "75%",
+        "certificate_img": "../static/images/certificates/3mtt/Adesina_3MTT_AI_ML.png",
+        "certificate_name": "AI/ML",
+        "issuing_institution": "3MTT",
+        "date_of_issue": "December, 2024",
+        "skills_acquired": "Artificial Intelligence, Machine Learning"
+    },
+    {
+        "certificates_container": "programming_hub_certificate_div",
+        "certificate_height": "50%",
+        "certificate_img": "../static/images/certificates/programming_hub/Adesina_PHP.png",
+        "certificate_name": "PHP Programming",
+        "issuing_institution": "Programming Hub",
+        "date_of_issue": "January, 2025",
+        "skills_acquired": "PHP"
+    },
+    {
+        "certificates_container": "mckinsey_certificate_div",
+        "certificate_height": "75%",
+        "certificate_img": "../static/images/certificates/mckinsey/Adesina_McKinsey_Forward.png",
+        "certificate_name": "Forward Program",
+        "issuing_institution": "McKinsey",
+        "date_of_issue": "December, 2024",
+        "skills_acquired": "Problem Solving, Leadership Skills"
+    }
+
+    
+]

@@ -1,0 +1,11 @@
+Hello! I'm Abdullah Adesina Dhikrullah, a passionate and results-driven Software Engineer with a strong foundation in mathematics and full-stack web development. My expertise lies in building scalable, user-friendly, and visually appealing web applications using Python (Flask), Next.js, React, and SQLAlchemy.
+
+I take pride in my ability to create well-structured and high-performance applications. I use HTML for structure, style with CSS and Tailwind CSS, and bring interactivity with JavaScript. My backend expertise includes Flask, database management with SQLAlchemy and MySQL, and seamless integration using Jinja.
+
+One of my strongest skills is working side by side with UI/UX designers to bring their vision to life. I understand the importance of user experience and interface design, ensuring that the frontend of my applications is not only functional but also aesthetically pleasing and user-friendly.
+
+Beyond development, I thrive in team collaborations, having worked on high-performance applications with startups and organizations. I am also a continuous learner, earning certifications in Frontend & Backend Development, AI/ML, Cloud Computing, and GitHub Career Essentials from ALX Academy, IBM, and Microsoft.
+
+Currently, I'm pursuing a Bachelor of Science in Mathematics at Obafemi Awolowo University while sharpening my software engineering skills through ALX Academy.
+
+When I'm not coding, I enjoy exploring African culture, AI innovations, and tech-driven solutions that create real-world impact.

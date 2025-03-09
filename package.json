@@ -1,0 +1,28 @@
+{
+  "name": "portfolio_website",
+  "version": "1.0.0",
+  "description": "Welcome",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/daadesina/portfolio_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daadesina/portfolio_website/issues"
+  },
+  "homepage": "https://github.com/daadesina/portfolio_website#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.11"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.11"
+  }
+}

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="px-36">
+        <div class="w-full h-screen " id="iframe_body">
+        </div>
+    </div>
+    
+
+    <script>
+        const iframe_body = document.getElementById('iframe_body')
+        
+        // create iframe
+        const iframe = document.createElement('iframe')
+        // append iframe in iframe_body
+        iframe_body.appendChild(iframe)
+
+        //style iframe
+        iframe.className = "w-full h-full"
+        
+        //give iframe a link
+        iframe.src = "https://docs.google.com/gview?url=https://drive.google.com/uc?id=1T2jgsTv9fhf4XSanzTTepDxgNh9_j3uR&embedded=true"
+    </script>
+{% endblock %}

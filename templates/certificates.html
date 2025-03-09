@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div hidden id="jinja_div" data-certificate_array_dict='{{certificate_array_dict | tojson | safe}}'></div>
+
+    <div>
+        <div>
+            <div>
+                <!-- The Certificate Category -->
+                <div class="flex flex-col gap-5">
+                    <!-- For ALX Certificates -->
+                    <div class="flex flex-col gap-5">
+                        <!-- Show and hide Button -->
+                        <button class="white_text show_hide_certificate_btn btn_hover transition-all duration-700 flex gap-4 justify-between items-center nav_bar_bg px-8 py-5 font-semibold rounded-lg w-[20rem]">
+                            <div>ALX Academy Certificates</div>
+                            <i class="fa-caret-down fa-solid certificate_arrow_down_icon"></i>
+                            <i class="fa-caret-up fa-solid certificate_arrow_up_icon"></i>
+                        </button>
+
+                        <div class="show_hide_certificate_div">
+                            <div id="alx_certificate_div"></div>
+                        </div>
+                    </div>
+
+                    <!-- For Coursera Certificates -->
+                    <div class="flex flex-col gap-5">
+                        <!-- Show and hide Button -->
+                        <button class="white_text show_hide_certificate_btn btn_hover transition-all duration-700 flex gap-4 justify-between items-center nav_bar_bg px-8 py-5 font-semibold rounded-lg w-[20rem]">
+                            <div>Coursera Certificates</div>
+                            <i class="fa-caret-down fa-solid certificate_arrow_down_icon"></i>
+                            <i class="fa-caret-up fa-solid certificate_arrow_up_icon"></i>
+                        </button>
+
+                        <div class="show_hide_certificate_div">
+                            <div id="coursera_certificate_div"></div>
+                        </div>
+                    </div>
+
+                    <!-- For Linkedin Learning Certificates -->
+                    <div class="flex flex-col gap-5">
+                        <!-- Show and hide Button -->
+                        <button class="white_text show_hide_certificate_btn btn_hover transition-all duration-700 flex gap-4 justify-between items-center nav_bar_bg px-8 py-5 font-semibold rounded-lg w-[20rem]">
+                            <div>Linkedin Learning Certificates</div>
+                            <i class="fa-caret-down fa-solid certificate_arrow_down_icon"></i>
+                            <i class="fa-caret-up fa-solid certificate_arrow_up_icon"></i>
+                        </button>
+
+                        <div class="show_hide_certificate_div">
+                            <div id="linkedin_certificate_div"></div>
+                        </div>
+                    </div>
+
+                    <!-- For 3MTT Certificates -->
+                    <div class="flex flex-col gap-5">
+                        <!-- Show and hide Button -->
+                        <button class="white_text show_hide_certificate_btn btn_hover transition-all duration-700 flex gap-4 justify-between items-center nav_bar_bg px-8 py-5 font-semibold rounded-lg w-[20rem]">
+                            <div>3MTT Certificates</div>
+                            <i class="fa-caret-down fa-solid certificate_arrow_down_icon"></i>
+                            <i class="fa-caret-up fa-solid certificate_arrow_up_icon"></i>
+                        </button>
+
+                        <div class="show_hide_certificate_div">
+                            <div id="threeMTT_certificate_div"></div>
+                        </div>
+                    </div>
+
+                    <!-- For Programming Hub Certificates -->
+                    <div class="flex flex-col gap-5">
+                        <!-- Show and hide Button -->
+                        <button class="white_text show_hide_certificate_btn btn_hover transition-all duration-700 flex gap-4 justify-between items-center nav_bar_bg px-8 py-5 font-semibold rounded-lg w-[20rem]">
+                            <div>Programming Hub Certificates</div>
+                            <i class="fa-caret-down fa-solid certificate_arrow_down_icon"></i>
+                            <i class="fa-caret-up fa-solid certificate_arrow_up_icon"></i>
+                        </button>
+
+                        <div class="show_hide_certificate_div">
+                            <div id="programming_hub_certificate_div"></div>
+                        </div>
+                    </div>
+
+                    <!-- For McKinsey Certificates -->
+                    <div class="flex flex-col gap-5">
+                        <!-- Show and hide Button -->
+                        <button class="white_text show_hide_certificate_btn btn_hover transition-all duration-700 flex gap-4 justify-between items-center nav_bar_bg px-8 py-5 font-semibold rounded-lg w-[20rem]">
+                            <div>McKinsey Certificates</div>
+                            <i class="fa-caret-down fa-solid certificate_arrow_down_icon"></i>
+                            <i class="fa-caret-up fa-solid certificate_arrow_up_icon"></i>
+                        </button>
+
+                        <div class="show_hide_certificate_div">
+                            <div id="mckinsey_certificate_div"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <script src="../static/js/certificates.js"></script>
+    </div>
+{% endblock %}
